@@ -1,0 +1,32 @@
+version: "3.9"
+
+services:
+  api:
+    build: .
+    container_name: api-service
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    command: python src/api_flask_correct.py
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "--silent", "--fail", "http://localhost:8001/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  dashboard:
+    build: .
+    container_name: dashboard-service
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    command: streamlit run src/streamlit_app.py --server.port 8501 --server.address 0.0.0.0
+    restart: unless-stopped
+    depends_on:
+      api:
+        condition: service_healthy

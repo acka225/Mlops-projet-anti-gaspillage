@@ -1,14 +1,14 @@
  RAPPORT ANTI-GASPILLAGE - ANALYTICS
 ==================================================
 Produits analysés: 500
-Produits à risque élevé: 322 (64.4%)
-Pertes potentielles: 77803.89€
-Économies potentielles: 52012.46€
-Réduction gaspillage: 66.9%
+Produits à risque élevé: 323 (64.6%)
+Pertes potentielles: 77756.59€
+Économies potentielles: 51909.93€
+Réduction gaspillage: 66.8%
 
  PRODUITS PRIORITAIRES:
-1. Risque: 134.36 - PROMOTION URGENTE 50% - Risque très élevé
-2. Risque: 134.14 - PROMOTION URGENTE 50% - Risque très élevé
-3. Risque: 133.9 - PROMOTION URGENTE 50% - Risque très élevé
-4. Risque: 133.22 - PROMOTION URGENTE 50% - Risque très élevé
-5. Risque: 132.32 - PROMOTION URGENTE 50% - Risque très élevé
+1. Risque: 132.94 - PROMOTION URGENTE 50% - Risque très élevé
+2. Risque: 132.64 - PROMOTION URGENTE 50% - Risque très élevé
+3. Risque: 132.32 - PROMOTION URGENTE 50% - Risque très élevé
+4. Risque: 121.44 - PROMOTION URGENTE 50% - Risque très élevé
+5. Risque: 118.86 - PROMOTION URGENTE 50% - Risque très élevé
